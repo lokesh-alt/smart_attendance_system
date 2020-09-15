@@ -3,8 +3,8 @@ import boto.s3
 import sys
 from boto.s3.key import Key
 
-AWS_ACCESS_KEY_ID = 'AKIAZSU25DYGU4PV3NES'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = '###############'
+AWS_SECRET_ACCESS_KEY = '###############################'
 
 
 bucket_name = AWS_ACCESS_KEY_ID.lower() + '-dump'
